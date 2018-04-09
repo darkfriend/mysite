@@ -1,0 +1,26 @@
+/*
+    Created on : 18.07.2016, 22:03:53
+    Author     : darkfriend
+    Version    : 0.0.1
+*/
+@import "../mixins/font-face.scss";
+
+@include font-face("AvenirNext", "/fonts/AvenirNext/AvenirNextCyr-Regular", 500, normal, eot ttf woff);
+@include font-face("AvenirNext", "/fonts/AvenirNext/AvenirNextCyr-Bold", bold, normal, eot ttf woff);
+//@include font-face("AvenirNext", "/fonts/AvenirNext/AvenirNextCyr-Bold", bold, normal, eot ttf woff);
+
+
+@include font-face("AvenirNextDemi", "/fonts/AvenirNext/AvenirNextCyr-Demi", normal, normal, eot ttf woff);
+@include font-face("AvenirNextDemi", "/fonts/AvenirNext/AvenirNextCyr-DemiItalic", normal, italic, eot ttf woff);
+
+
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansBlackItalic/MuseoSansBlackItalic", 900, italic, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansBold/MuseoSansBold", bold, normal, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansBoldItalic/MuseoSansBoldItalic", bold, italic, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansItalic/MuseoSansItalic", normal, italic, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansLight/MuseoSansLight", lighter, normal, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansLightItalic/MuseoSansLightItalic", lighter, italic, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium", normal, normal, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansMediumItalic/MuseoSansMediumItalic", normal, italic, eot ttf woff);
+//@include font-face("MuseoSans", "/fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular", 300, normal, eot ttf woff);
+//@include font-face("MuseoSansCyrl", "/fonts/MuseoSans/MuseoSansCyrl/Museosanscyrl500", 500, normal, ttf woff woff2);

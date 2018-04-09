@@ -1,0 +1,37 @@
+{
+  "name": "darkfriend.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "blaze": "^4.0.0-6",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-copy": "^1.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-pngquant": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkfriend/mysite.git"
+  },
+  "author": "darkfriend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkfriend/mysite/issues"
+  },
+  "homepage": "https://github.com/darkfriend/mysite#readme"
+}

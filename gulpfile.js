@@ -59,6 +59,17 @@ gulp.task('img', function() {
         .pipe(browserSync.stream());
 });
 
+gulp.task('scss:build', function () {
+	return gulp.src(source+'/scss/main.scss')
+		.pipe(sassGlob())
+		.pipe(plumber())
+		.pipe(sass().on('error', sass.logError))
+		.on('error', notify.onError())
+		.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
+		.pipe(cleanCSS())
+		.pipe(gulp.dest(dist+'/css'));
+});
+
 gulp.task('scss', function () {
 	return gulp.src(source+'/scss/main.scss')
         .pipe(sassGlob())
@@ -81,5 +92,6 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['fonts','html','jade','img','scss','watch','browser-sync']);
+gulp.task('build', ['fonts','html','jade','img','scss:build']);
 gulp.task('dist', ['html','scss', 'img']);
 gulp.task('serv', ['browser-sync']);

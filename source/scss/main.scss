@@ -21,7 +21,7 @@
     font-weight: 700;
     padding-top: 0;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 17px;
   }
   .c-list--inline{
     display: flex;
@@ -31,6 +31,7 @@
     .c-list__item{
       display: flex;
       align-items: center;
+      margin-top: 10px;
       &:last-child{
         padding-right: 0;
       }
@@ -69,9 +70,9 @@
     text-align: center;
     text-decoration: none;
     margin: 5px;
-    &:first-child, &:nth-child(6n){
-      margin-left: 0;
-    }
+    //&:first-child, &:nth-child(6n){
+    //  margin-left: 0;
+    //}
     &-group {
       display: flex;
       flex-wrap: wrap;
@@ -81,16 +82,24 @@
     &--social{
       margin: 10px;
       text-decoration: none;
-      &:first-child, &:nth-child(6n){
-        margin-left: 0;
-      }
+      //&:first-child, &:nth-child(6n){
+      //  margin-left: 0;
+      //}
     }
   }
+}
+
+.darkfriend_image {
+  width: 100%;
 }
 
 //@import "~blaze/scss/src/mixins/*";
 //@import "~blaze/scss/src/themes/*";
 //@import "~blaze/scss/src/*";
 
-
+@media (max-width: 1366px) {
+  .d-container {
+    width: 100%;
+  }
+}
 
